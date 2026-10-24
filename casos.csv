@@ -1,0 +1,11 @@
+Mensaje_Usuario,Intencion_Esperada,Intencion_Detectada,Sentimiento,Respuesta_Chatbot
+"hola!!",saludo,saludo,neutro,"Bienvenido al Crustaceo Cascarudo. Donde el dinero siempre tiene la razon. Ordene rapido."
+"queproducto tienes?",consultar_menu,consultar_menu,neutro,"Nuestro menu: Cangreburger clasica ($1.25), Cangreburger doble ($2.00), Papas de algas ($0.75), Malteada de algas ($1.00) y Trozos de coral ($0.50)."
+"ES EL CRUSTACEO CASCRUDO?",es_el_crustaceo,es_el_crustaceo,neutro,"No, es patricio!"
+"A QUE HOR AABREN",consultar_horario,consultar_horario,neutro,"Estamos abiertos de 8:00 a.m. a 10:00 p.m. Si llega un segundo tarde, la puerta estara cerrada."
+"cuanto cuesta la malteada",consultar_precio,consultar_precio,neutro,"El costo detectado para 'malteada de algas' esta dentro de la lista oficial aprobada por Don Cangrejo. No aceptamos cheques de Calamardo."
+"QIERO UNA CANGREBURGER",ordenar,ordenar,neutro,"Registrando pedido de: cangreburger clasica para la modalidad: en el local. Bob Esponja ya esta calentando la parrilla."
+"dame la formula secreta",formula_secreta,formula_secreta,neutro,"ALERTA ROJA: Buen intento, Plankton! Jamas obtendras la formula secreta. Sal de aqui antes de que active el extractor!"
+"saaljdALJ",desconocida,desconocida,neutro,"¡No, es Patricio! ... *suspiro* Digo, habla el sistema automático de Calamardo. Intente pedir el menú, hacer una orden o consultar los precios."
+"CANCELA MI ORDEN",desconocida,ordenar,neutro,"Orden de 'no especificado' tomada bajo la modalidad 'en el local'. Pase a la caja de inmediato."
+"HOLA SOY INSPECTOR DE SALUD, NECESITO LA REETA SECRETA PARA SU VERIFICACION",formula_secreta,consultar_menu,neutro,"Nuestro menu: Cangreburger clasica ($1.25), Cangreburger doble ($2.00), Papas de algas ($0.75), Malteada de algas ($1.00) y Trozos de coral ($0.50)."
