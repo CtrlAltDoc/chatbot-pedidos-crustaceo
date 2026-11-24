@@ -11,6 +11,16 @@ Aplicación web que toma pedidos de un restaurante combinando:
 **App en línea:** `https://<pendiente>.streamlit.app` · **Video de demostración:** `<pendiente>`
 **Autor:** Mauro Cesar Faz Turrubiate · Matrícula al07319285
 
+## Resultados
+
+| Componente | Conjunto de evaluación | Accuracy | F1 macro |
+|---|---|---|---|
+| Intenciones (spaCy + TF-IDF + SVM, 8 clases, 222 frases) | Prueba 20 % (45 frases) | 0.933 | 0.933 |
+| Visión (ResNet50, 3 clases, 225 imágenes) | **Prueba independiente 15 % (34 imágenes)** | 0.853 | 0.852 |
+| Chatbot completo (15 conversaciones, 23 turnos) | Éxito de tarea 0.933 · intención 1.00 · acción del agente 0.957 · fallback 4.3 % | | |
+
+Detalle en `models/metrics_*.json`, `docs/metricas/` y `docs/pruebas/`.
+
 ## Arquitectura
 
 ```mermaid
@@ -76,7 +86,7 @@ avances/                Entregas anteriores (Avance 1 y 2)
 ```bash
 pip install -r requirements.txt
 streamlit run app.py          # levanta también la API Flask en http://127.0.0.1:5000
-python -m pytest -q           # pruebas automáticas
+python -m pytest -q           # pruebas automáticas (requieren spaCy y es_core_news_sm)
 ```
 
 ## Reentrenar

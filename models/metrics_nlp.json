@@ -1,0 +1,169 @@
+{
+  "motor_preprocesamiento": "spacy",
+  "n_total": 222,
+  "n_train": 177,
+  "n_test": 45,
+  "accuracy": 0.9333,
+  "macro_precision": 0.9405,
+  "macro_recall": 0.9375,
+  "macro_f1": 0.9332,
+  "por_clase": {
+    "consultar_horario": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 5.0
+    },
+    "consultar_menu": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 6.0
+    },
+    "consultar_precio": {
+      "precision": 0.8571,
+      "recall": 1.0,
+      "f1-score": 0.9231,
+      "support": 6.0
+    },
+    "es_el_crustaceo": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 5.0
+    },
+    "formula_secreta": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 6.0
+    },
+    "ordenar": {
+      "precision": 0.8333,
+      "recall": 0.8333,
+      "f1-score": 0.8333,
+      "support": 6.0
+    },
+    "queja": {
+      "precision": 1.0,
+      "recall": 0.6667,
+      "f1-score": 0.8,
+      "support": 6.0
+    },
+    "saludo": {
+      "precision": 0.8333,
+      "recall": 1.0,
+      "f1-score": 0.9091,
+      "support": 5.0
+    }
+  },
+  "labels": [
+    "consultar_horario",
+    "consultar_menu",
+    "consultar_precio",
+    "es_el_crustaceo",
+    "formula_secreta",
+    "ordenar",
+    "queja",
+    "saludo"
+  ],
+  "confusion_matrix": [
+    [
+      5,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      6,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      6,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      5,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      6,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0,
+      0,
+      5,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      4,
+      1
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      5
+    ]
+  ],
+  "errores_test": [
+    {
+      "mensaje": "las papas estaban crudas",
+      "esperada": "queja",
+      "predicha": "ordenar"
+    },
+    {
+      "mensaje": "una cangreburger clasica sin pepinillos",
+      "esperada": "ordenar",
+      "predicha": "consultar_precio"
+    },
+    {
+      "mensaje": "tardaron mucho en atender",
+      "esperada": "queja",
+      "predicha": "saludo"
+    }
+  ]
+}

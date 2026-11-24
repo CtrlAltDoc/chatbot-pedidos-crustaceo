@@ -1,0 +1,25 @@
+{
+  "conversaciones_evaluadas": 15,
+  "turnos_evaluados": 23,
+  "exito_de_tarea": 0.9333,
+  "exactitud_intencion": 1.0,
+  "exactitud_accion_agente": 0.9565,
+  "tasa_aclaracion_fallback": 0.0435,
+  "latencia_p50_ms": 6.0,
+  "latencia_p95_ms": 4280.4,
+  "fallas": [
+    {
+      "conversacion": "C15",
+      "objetivo": "Texto con errores de escritura",
+      "turno": 1,
+      "entrada": "kuanto kuesta las papas",
+      "intencion_esperada": "-",
+      "intencion_obtenida": "ordenar",
+      "accion_esperada": "dar_precio",
+      "accion_obtenida": "agregar_pedido",
+      "respuesta": "Anotado. Tu pedido: 1 x Papas de algas. Total: $25 MXN. Escriba 'eso es todo' para confirmar.",
+      "latencia_ms": 5.5,
+      "resultado": "FALLA"
+    }
+  ]
+}

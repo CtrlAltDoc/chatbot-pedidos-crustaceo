@@ -1,0 +1,74 @@
+{
+  "agent_texto": [
+    {
+      "concurrencia": 1,
+      "peticiones": 60,
+      "exito": 1.0,
+      "throughput_rps": 16.26,
+      "p50_ms": 7.6,
+      "p95_ms": 12.1,
+      "max_ms": 3212.5
+    },
+    {
+      "concurrencia": 5,
+      "peticiones": 60,
+      "exito": 1.0,
+      "throughput_rps": 112.88,
+      "p50_ms": 42.5,
+      "p95_ms": 63.6,
+      "max_ms": 85.1
+    },
+    {
+      "concurrencia": 10,
+      "peticiones": 60,
+      "exito": 1.0,
+      "throughput_rps": 98.39,
+      "p50_ms": 97.1,
+      "p95_ms": 149.7,
+      "max_ms": 171.4
+    }
+  ],
+  "vision": [
+    {
+      "concurrencia": 1,
+      "peticiones": 20,
+      "exito": 1.0,
+      "throughput_rps": 1.18,
+      "p50_ms": 174.1,
+      "p95_ms": 13721.8,
+      "max_ms": 13721.8
+    },
+    {
+      "concurrencia": 5,
+      "peticiones": 20,
+      "exito": 1.0,
+      "throughput_rps": 8.97,
+      "p50_ms": 513.7,
+      "p95_ms": 843.2,
+      "max_ms": 843.2
+    }
+  ],
+  "metrics_api": {
+    "endpoints": {
+      "/agent/step": {
+        "errors": 0,
+        "p50_ms": 23.6,
+        "p95_ms": 83.4,
+        "requests": 180
+      },
+      "/health": {
+        "errors": 0,
+        "p50_ms": 0.1,
+        "p95_ms": 0.1,
+        "requests": 1
+      },
+      "/vision/classify": {
+        "errors": 0,
+        "p50_ms": 346.4,
+        "p95_ms": 831.9,
+        "requests": 40
+      }
+    },
+    "uptime_s": 24
+  }
+}
