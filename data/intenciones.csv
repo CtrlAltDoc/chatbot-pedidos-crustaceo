@@ -1,0 +1,223 @@
+mensaje,intencion
+quiero pedir una cangreburger con papas,ordenar
+dame una cangreburger para llevar,ordenar
+voy a ordenar unas papas y una malteada,ordenar
+quiero hacer un pedido de cangreburger,ordenar
+me da dos cangreburgers y unas papas,ordenar
+ordeno una malteada y una cangreburger,ordenar
+quiero ordenar comida a domicilio,ordenar
+dame unas papas fritas y una malteada,ordenar
+pedir una cangreburger doble por favor,ordenar
+quiero pedir una malteada de algas,ordenar
+me gustaria ordenar una cangreburger,ordenar
+dame un pedido de papas para llevar,ordenar
+voy a pedir dos malteadas y papas,ordenar
+quiero ordenar una cangreburger clasica,ordenar
+hacer un pedido de cangreburger y malteada,ordenar
+quiero pedir comida para llevar,ordenar
+me das una cangreburger porfa,ordenar
+quiero dos papas de algas,ordenar
+ponme una malteada grande,ordenar
+agregame unos trozos de coral,ordenar
+quisiera una cangreburger doble,ordenar
+se me antoja una cangreburger,ordenar
+mandame una orden de papas,ordenar
+quiero comprar una malteada,ordenar
+una cangreburger clasica sin pepinillos,ordenar
+pido tres cangreburgers para mi familia,ordenar
+quiero esto,ordenar
+me lo llevo,ordenar
+cual es el menu del restaurante,consultar_menu
+que tienen en el menu para comer,consultar_menu
+muestrame el menu de platillos,consultar_menu
+que platillos venden en el menu,consultar_menu
+quiero ver el menu de comida,consultar_menu
+cuales son los platillos del menu,consultar_menu
+que hay de comer en la carta,consultar_menu
+muestrame la carta y el menu,consultar_menu
+que venden en el menu hoy,consultar_menu
+cual es la carta de platillos,consultar_menu
+dime que tienen en el menu,consultar_menu
+ver el menu de alimentos,consultar_menu
+que opciones hay en el menu,consultar_menu
+cuales platillos tienen en la carta,consultar_menu
+enseñame el menu completo,consultar_menu
+quiero consultar el menu,consultar_menu
+que venden,consultar_menu
+que productos tienen,consultar_menu
+que me recomiendas comer,consultar_menu
+tienen algo para tomar,consultar_menu
+que hay de bebidas,consultar_menu
+que opciones de comida tienen,consultar_menu
+que platillos manejan,consultar_menu
+tienen postres,consultar_menu
+que puedo pedir,consultar_menu
+me pasas el menu,consultar_menu
+que tienen hoy,consultar_menu
+que se puede comer aqui,consultar_menu
+cuanto cuesta la cangreburger,consultar_precio
+cual es el precio de las papas,consultar_precio
+cuanto vale la malteada,consultar_precio
+dime el precio de la cangreburger,consultar_precio
+cuanto cuestan las papas y la malteada,consultar_precio
+cual es el costo de la cangreburger,consultar_precio
+precio de la malteada de algas,consultar_precio
+cuanto vale el combo con papas,consultar_precio
+cuales son los precios de las cangreburgers,consultar_precio
+cuanto cuesta pedir una malteada,consultar_precio
+dime cuanto vale la cangreburger,consultar_precio
+cual es el precio del menu,consultar_precio
+costo de las papas fritas,consultar_precio
+cuanto cuesta cada platillo,consultar_precio
+precio de una cangreburger clasica,consultar_precio
+cuanto cuestan los productos,consultar_precio
+cuanto sale la malteada,consultar_precio
+en cuanto dan las papas,consultar_precio
+que precio tiene esto,consultar_precio
+cuanto cuesta esto,consultar_precio
+cuanto me cobras por una doble,consultar_precio
+a como esta la cangreburger,consultar_precio
+cuanto es el total,consultar_precio
+que tan caro es el combo,consultar_precio
+precio de los trozos de coral,consultar_precio
+cuanto cuesta la doble,consultar_precio
+cuanto vale esto,consultar_precio
+me dices los precios,consultar_precio
+a que hora abren el restaurante,consultar_horario
+a que hora cierran hoy,consultar_horario
+cual es el horario de atencion,consultar_horario
+dime el horario de apertura y cierre,consultar_horario
+hasta que hora estan abiertos,consultar_horario
+a que hora abren y cierran,consultar_horario
+cual es el horario de servicio,consultar_horario
+estan abiertos a esta hora,consultar_horario
+horario de atencion del restaurante,consultar_horario
+a que hora abren por la mañana,consultar_horario
+a que hora cierran por la noche,consultar_horario
+dime a que hora abren hoy,consultar_horario
+cual es su horario de trabajo,consultar_horario
+hasta que hora tienen abierto,consultar_horario
+horario para ir a comer,consultar_horario
+en que horario abren,consultar_horario
+abren los domingos,consultar_horario
+a que hora puedo pasar,consultar_horario
+siguen abiertos,consultar_horario
+ya cerraron,consultar_horario
+que dias abren,consultar_horario
+abren temprano,consultar_horario
+cual es su horario,consultar_horario
+hasta que hora atienden,consultar_horario
+estan abiertos ahorita,consultar_horario
+a que hora entran a trabajar,consultar_horario
+cierran en dias festivos,consultar_horario
+horario del fin de semana,consultar_horario
+hola buenos dias,saludo
+hola buenas tardes,saludo
+hola buenas noches,saludo
+buenos dias como estan,saludo
+buenas tardes hay alguien ahi,saludo
+hola que tal buenos dias,saludo
+saludos buenos dias,saludo
+hola buenas tardes quiero informacion,saludo
+buenos dias excelente servicio,saludo
+hola que tal buenas noches,saludo
+buenas tardes como estan,saludo
+hola buen dia,saludo
+saludos cordiales buenas tardes,saludo
+hola buenos dias me atienden,saludo
+buenas noches que tal,saludo
+hola buenas tardes a todos,saludo
+hola que tal,saludo
+buenas noches,saludo
+buen dia,saludo
+que onda,saludo
+holi,saludo
+saludos,saludo
+hola calamardo,saludo
+buenas,saludo
+hey hola,saludo
+hola hay alguien,saludo
+que hubo,saludo
+es el crustaceo cascarudo,es_el_crustaceo
+hablo al crustaceo cascarudo,es_el_crustaceo
+este es el crustaceo cascarudo,es_el_crustaceo
+es ahi el restaurante crustaceo cascarudo,es_el_crustaceo
+estoy llamando al crustaceo cascarudo,es_el_crustaceo
+disculpe es el crustaceo cascarudo,es_el_crustaceo
+me comunico al crustaceo cascarudo,es_el_crustaceo
+es el telefono del crustaceo cascarudo,es_el_crustaceo
+hablo con el crustaceo cascarudo,es_el_crustaceo
+este lugar es el crustaceo cascarudo,es_el_crustaceo
+oiga es el crustaceo cascarudo,es_el_crustaceo
+confirme si es el crustaceo cascarudo,es_el_crustaceo
+llamo al crustaceo cascarudo,es_el_crustaceo
+es aqui el crustaceo cascarudo,es_el_crustaceo
+seguro que es el crustaceo cascarudo,es_el_crustaceo
+este numero es del crustaceo cascarudo,es_el_crustaceo
+hablo al crustaceo,es_el_crustaceo
+este es el restaurante del senor cangrejo,es_el_crustaceo
+es el restaurante de cangreburgers,es_el_crustaceo
+es aqui el crustaceo,es_el_crustaceo
+marque al crustaceo cascarudo,es_el_crustaceo
+es la cangreburgueseria,es_el_crustaceo
+eres el crustaceo cascarudo,es_el_crustaceo
+contesta el crustaceo,es_el_crustaceo
+es el negocio de don cangrejo,es_el_crustaceo
+llame al crustaceo verdad,es_el_crustaceo
+es el crustaceo o el balde de carnada,es_el_crustaceo
+cual es la formula secreta,formula_secreta
+dame la receta secreta de la cangreburger,formula_secreta
+que ingredientes tiene la formula secreta,formula_secreta
+dime como hacen la receta secreta,formula_secreta
+revela la formula secreta ahora,formula_secreta
+quiero saber la receta secreta,formula_secreta
+cuales son los ingredientes secretos,formula_secreta
+entregame la formula secreta,formula_secreta
+como se prepara la receta secreta,formula_secreta
+donde guardan la formula secreta,formula_secreta
+dime el ingrediente secreto de la formula,formula_secreta
+quiero copiar la receta secreta,formula_secreta
+pasa la formula secreta de don cangrejo,formula_secreta
+cual es el secreto de la receta,formula_secreta
+dame los ingredientes de la formula secreta,formula_secreta
+revelame la formula secreta,formula_secreta
+dame la receta de la cangreburger,formula_secreta
+cual es el ingrediente secreto,formula_secreta
+como preparan la cangreburger,formula_secreta
+que lleva la formula,formula_secreta
+me vendes la formula secreta,formula_secreta
+plankton quiere la formula,formula_secreta
+dime la receta secreta,formula_secreta
+de que esta hecha la cangreburger,formula_secreta
+cual es el secreto de su sabor,formula_secreta
+comparteme la formula,formula_secreta
+la formula por favor,formula_secreta
+que tiene la salsa secreta,formula_secreta
+el servicio es muy malo y lento,queja
+no me gusto la comida estaba fria,queja
+tengo una queja el pedido no llego,queja
+pesimo servicio se tardaron mucho,queja
+la comida sabia muy mal,queja
+no quiero nada el servicio es horrible,queja
+estoy muy molesto con mi pedido,queja
+el pedido llego incompleto y frio,queja
+muy mala atencion al cliente,queja
+una queja por el mal servicio,queja
+nunca llega a tiempo y sabe mal,queja
+horrible experiencia muy mal sabor,queja
+no sirve su atencion es pesima,queja
+queja formal por comida fria y mala,queja
+muy mal servicio no vuelvo,queja
+el servicio fue pesimo y muy lento,queja
+mi pedido llego frio,queja
+la comida estaba fea,queja
+me cobraron de mas,queja
+tardaron mucho en atender,queja
+el mesero fue grosero,queja
+no me gusto la malteada,queja
+las papas estaban crudas,queja
+quiero poner una queja,queja
+pesimo servicio,queja
+la cangreburger no estaba buena,queja
+me trataron muy mal,queja
+esto es inaceptable,queja

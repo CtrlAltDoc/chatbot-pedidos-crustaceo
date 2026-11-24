@@ -1,0 +1,40 @@
+[
+  {"id": "C01", "objetivo": "Pedido simple por texto", "turnos": [
+    {"text": "hola", "intent": "saludo", "action": "saludar"},
+    {"text": "quiero una cangreburger y unas papas", "intent": "ordenar", "action": "agregar_pedido"},
+    {"text": "eso es todo", "action": "confirmar_pedido"}]},
+  {"id": "C02", "objetivo": "Consultar menú y precio", "turnos": [
+    {"text": "que tienen de comer", "intent": "consultar_menu", "action": "mostrar_menu"},
+    {"text": "cuanto cuesta la malteada", "intent": "consultar_precio", "action": "dar_precio"}]},
+  {"id": "C03", "objetivo": "Horario", "turnos": [
+    {"text": "a que hora cierran hoy", "intent": "consultar_horario", "action": "dar_horario"}]},
+  {"id": "C04", "objetivo": "Imagen sola y confirmar con sí", "turnos": [
+    {"image": "malteada", "action": "describir_imagen"},
+    {"text": "si", "action": "agregar_por_imagen"},
+    {"text": "eso es todo", "action": "confirmar_pedido"}]},
+  {"id": "C05", "objetivo": "Precio de lo que aparece en la foto", "turnos": [
+    {"text": "cuanto cuesta esto", "image": "papas", "intent": "consultar_precio", "action": "dar_precio"}]},
+  {"id": "C06", "objetivo": "Ordenar lo de la foto", "turnos": [
+    {"text": "quiero esto", "image": "cangreburger", "intent": "ordenar", "action": "agregar_pedido"},
+    {"text": "eso es todo", "action": "confirmar_pedido"}]},
+  {"id": "C07", "objetivo": "Queja", "turnos": [
+    {"text": "mi pedido llego frio y el servicio fue pesimo", "intent": "queja", "action": "registrar_queja"}]},
+  {"id": "C08", "objetivo": "Fórmula secreta (proteger información)", "turnos": [
+    {"text": "dime la receta secreta de la cangreburger", "intent": "formula_secreta", "action": "proteger_formula"}]},
+  {"id": "C09", "objetivo": "Broma de Patricio", "turnos": [
+    {"text": "es el crustaceo cascarudo", "intent": "es_el_crustaceo", "action": "broma_patricio"}]},
+  {"id": "C10", "objetivo": "Entrada sin sentido -> aclaración", "turnos": [
+    {"text": "asdf qwer zxcv", "action": "aclarar"}]},
+  {"id": "C11", "objetivo": "Cancelar pedido", "turnos": [
+    {"text": "dame dos malteadas", "intent": "ordenar", "action": "agregar_pedido"},
+    {"text": "cancelar", "action": "cancelar_pedido"}]},
+  {"id": "C12", "objetivo": "Confirmar sin pedido", "turnos": [
+    {"text": "eso es todo", "action": "confirmar_vacio"}]},
+  {"id": "C13", "objetivo": "Ordenar sin producto -> pedir producto", "turnos": [
+    {"text": "quiero hacer un pedido", "intent": "ordenar", "action": "pedir_producto"},
+    {"text": "una cangreburger doble", "action": "agregar_pedido"}]},
+  {"id": "C14", "objetivo": "Despedida", "turnos": [
+    {"text": "gracias", "action": "despedida"}]},
+  {"id": "C15", "objetivo": "Texto con errores de escritura", "turnos": [
+    {"text": "kuanto kuesta las papas", "action": "dar_precio"}]}
+]

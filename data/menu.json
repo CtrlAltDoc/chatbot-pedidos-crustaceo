@@ -1,0 +1,17 @@
+{
+  "restaurante": "El Crustáceo Cascarudo",
+  "moneda": "MXN",
+  "horario": "Abrimos de 8:00 a.m. a 10:00 p.m., todos los días. Si llega un segundo tarde, la puerta estará cerrada.",
+  "productos": {
+    "cangreburger": {"nombre": "Cangreburger clásica", "precio": 45, "sinonimos": ["cangreburger", "cangreburgers", "hamburguesa", "hamburguesas", "clasica", "burger"]},
+    "cangreburger_doble": {"nombre": "Cangreburger doble", "precio": 65, "sinonimos": ["doble", "cangreburger doble", "hamburguesa doble"]},
+    "papas": {"nombre": "Papas de algas", "precio": 25, "sinonimos": ["papas", "papa", "papitas", "fritas"]},
+    "malteada": {"nombre": "Malteada de algas", "precio": 30, "sinonimos": ["malteada", "malteadas", "licuado", "bebida"]},
+    "trozos_coral": {"nombre": "Trozos de coral", "precio": 15, "sinonimos": ["coral", "trozos", "trozos de coral"]}
+  },
+  "clase_visual_a_producto": {
+    "cangreburger": "cangreburger",
+    "papas": "papas",
+    "malteada": "malteada"
+  }
+}
