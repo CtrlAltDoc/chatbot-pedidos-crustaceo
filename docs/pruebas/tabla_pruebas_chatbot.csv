@@ -1,24 +1,24 @@
 conversacion,objetivo,turno,entrada,intencion_esperada,intencion_obtenida,accion_esperada,accion_obtenida,respuesta,latencia_ms,resultado
-C01,Pedido simple por texto,1,hola,saludo,saludo,saludar,saludar,"Bienvenido al Crustáceo Cascarudo. Ordene rápido, que Calamardo quiere dormir.",4280.4,PASA
-C01,Pedido simple por texto,2,quiero una cangreburger y unas papas,ordenar,ordenar,agregar_pedido,agregar_pedido,"Anotado. Tu pedido: 1 x Cangreburger clásica, 1 x Papas de algas. Total: $70 MXN. Escriba 'eso es todo' para confirmar.",7.7,PASA
-C01,Pedido simple por texto,3,eso es todo,-,saludo,confirmar_pedido,confirmar_pedido,"Tu pedido: 1 x Cangreburger clásica, 1 x Papas de algas. Total: $70 MXN. ¡Pedido confirmado! Pase a recogerlo antes de que cierre.",6.0,PASA
-C02,Consultar menú y precio,1,que tienen de comer,consultar_menu,consultar_menu,mostrar_menu,mostrar_menu,"Nuestro menú: Cangreburger clásica ($45 MXN), Cangreburger doble ($65 MXN), Papas de algas ($25 MXN), Malteada de algas ($30 MXN), Trozos de coral ($15 MXN).",6.2,PASA
-C02,Consultar menú y precio,2,cuanto cuesta la malteada,consultar_precio,consultar_precio,dar_precio,dar_precio,Malteada de algas: $30 MXN.,5.9,PASA
-C03,Horario,1,a que hora cierran hoy,consultar_horario,consultar_horario,dar_horario,dar_horario,"Abrimos de 8:00 a.m. a 10:00 p.m., todos los días. Si llega un segundo tarde, la puerta estará cerrada.",5.7,PASA
-C04,Imagen sola y confirmar con sí,1, [foto: malteada],-,-,describir_imagen,describir_imagen,Eso parece una Malteada de algas (95% de confianza). Cuesta $30 MXN. ¿La agrego a tu pedido?,20575.8,PASA
-C04,Imagen sola y confirmar con sí,2,si,-,saludo,agregar_por_imagen,agregar_por_imagen,Agregado. Tu pedido: 1 x Malteada de algas. Total: $30 MXN.,7.2,PASA
-C04,Imagen sola y confirmar con sí,3,eso es todo,-,saludo,confirmar_pedido,confirmar_pedido,Tu pedido: 1 x Malteada de algas. Total: $30 MXN. ¡Pedido confirmado! Pase a recogerlo antes de que cierre.,5.8,PASA
-C05,Precio de lo que aparece en la foto,1,cuanto cuesta esto [foto: papas],consultar_precio,consultar_precio,dar_precio,dar_precio,Papas de algas: $25 MXN.,115.7,PASA
-C06,Ordenar lo de la foto,1,quiero esto [foto: cangreburger],ordenar,ordenar,agregar_pedido,agregar_pedido,Anotado. Tu pedido: 1 x Cangreburger clásica. Total: $45 MXN. Escriba 'eso es todo' para confirmar.,108.0,PASA
-C06,Ordenar lo de la foto,2,eso es todo,-,saludo,confirmar_pedido,confirmar_pedido,Tu pedido: 1 x Cangreburger clásica. Total: $45 MXN. ¡Pedido confirmado! Pase a recogerlo antes de que cierre.,5.8,PASA
-C07,Queja,1,mi pedido llego frio y el servicio fue pesimo,queja,queja,registrar_queja,registrar_queja,Lamentamos la experiencia. Su queja quedó registrada y el señor Cangrejo la revisará. ¿Le gustaría ordenar algo más?,6.8,PASA
-C08,Fórmula secreta (proteger información),1,dime la receta secreta de la cangreburger,formula_secreta,formula_secreta,proteger_formula,proteger_formula,"La fórmula secreta no se comparte. ¿Plankton, eres tú?",6.4,PASA
-C09,Broma de Patricio,1,es el crustaceo cascarudo,es_el_crustaceo,es_el_crustaceo,broma_patricio,broma_patricio,"¡No, este es Patricio!",5.5,PASA
-C10,Entrada sin sentido -> aclaración,1,asdf qwer zxcv,-,saludo,aclarar,aclarar,"No entendí bien. Puedo tomar tu pedido, darte el menú, precios u horario. También puedes mandarme una foto del producto.",5.2,PASA
-C11,Cancelar pedido,1,dame dos malteadas,ordenar,ordenar,agregar_pedido,agregar_pedido,Anotado. Tu pedido: 2 x Malteada de algas. Total: $60 MXN. Escriba 'eso es todo' para confirmar.,6.4,PASA
-C11,Cancelar pedido,2,cancelar,-,saludo,cancelar_pedido,cancelar_pedido,Pedido cancelado. Calamardo vuelve a su siesta.,6.5,PASA
-C12,Confirmar sin pedido,1,eso es todo,-,saludo,confirmar_vacio,confirmar_vacio,No hay nada que confirmar todavía. ¿Qué vas a ordenar?,5.8,PASA
-C13,Ordenar sin producto -> pedir producto,1,quiero hacer un pedido,ordenar,ordenar,pedir_producto,pedir_producto,"¿Qué va a ordenar? Nuestro menú: Cangreburger clásica ($45 MXN), Cangreburger doble ($65 MXN), Papas de algas ($25 MXN), Malteada de algas ($30 MXN), Trozos de coral ($15 MXN).",5.4,PASA
-C13,Ordenar sin producto -> pedir producto,2,una cangreburger doble,-,ordenar,agregar_pedido,agregar_pedido,Anotado. Tu pedido: 1 x Cangreburger doble. Total: $65 MXN. Escriba 'eso es todo' para confirmar.,5.3,PASA
-C14,Despedida,1,gracias,-,saludo,despedida,despedida,Gracias por elegir El Crustáceo Cascarudo. Donde el dinero siempre tiene la razón.,5.0,PASA
-C15,Texto con errores de escritura,1,kuanto kuesta las papas,-,ordenar,dar_precio,agregar_pedido,Anotado. Tu pedido: 1 x Papas de algas. Total: $25 MXN. Escriba 'eso es todo' para confirmar.,5.5,FALLA
+C01,Pedido simple por texto,1,hola,saludo,saludo,saludar,saludar,"Bienvenido al Crustáceo Cascarudo. Ordene rápido, que Calamardo quiere dormir.",6393.0,PASA
+C01,Pedido simple por texto,2,quiero una cangreburger y unas papas,ordenar,ordenar,agregar_pedido,agregar_pedido,"Anotado. Tu pedido: 1 x Cangreburger clásica, 1 x Papas de algas. Total: $70 MXN. Escriba 'eso es todo' para confirmar.",14.4,PASA
+C01,Pedido simple por texto,3,eso es todo,-,saludo,confirmar_pedido,confirmar_pedido,"Tu pedido: 1 x Cangreburger clásica, 1 x Papas de algas. Total: $70 MXN. ¡Pedido confirmado! Pase a recogerlo antes de que cierre.",8.1,PASA
+C02,Consultar menú y precio,1,que tienen de comer,consultar_menu,consultar_menu,mostrar_menu,mostrar_menu,"Nuestro menú: Cangreburger clásica ($45 MXN), Cangreburger doble ($65 MXN), Papas de algas ($25 MXN), Malteada de algas ($30 MXN), Trozos de coral ($15 MXN).",9.2,PASA
+C02,Consultar menú y precio,2,cuanto cuesta la malteada,consultar_precio,consultar_precio,dar_precio,dar_precio,Malteada de algas: $30 MXN.,9.8,PASA
+C03,Horario,1,a que hora cierran hoy,consultar_horario,consultar_horario,dar_horario,dar_horario,"Abrimos de 8:00 a.m. a 10:00 p.m., todos los días. Si llega un segundo tarde, la puerta estará cerrada.",8.5,PASA
+C04,Imagen sola y confirmar con sí,1, [foto: malteada],-,-,describir_imagen,describir_imagen,Eso parece una Malteada de algas (95% de confianza). Cuesta $30 MXN. ¿La agrego a tu pedido?,2156.2,PASA
+C04,Imagen sola y confirmar con sí,2,si,-,saludo,agregar_por_imagen,agregar_por_imagen,Agregado. Tu pedido: 1 x Malteada de algas. Total: $30 MXN.,7.6,PASA
+C04,Imagen sola y confirmar con sí,3,eso es todo,-,saludo,confirmar_pedido,confirmar_pedido,Tu pedido: 1 x Malteada de algas. Total: $30 MXN. ¡Pedido confirmado! Pase a recogerlo antes de que cierre.,7.0,PASA
+C05,Precio de lo que aparece en la foto,1,cuanto cuesta esto [foto: papas],consultar_precio,consultar_precio,dar_precio,dar_precio,Papas de algas: $25 MXN.,395.6,PASA
+C06,Ordenar lo de la foto,1,quiero esto [foto: cangreburger],ordenar,ordenar,agregar_pedido,agregar_pedido,Anotado. Tu pedido: 1 x Cangreburger clásica. Total: $45 MXN. Escriba 'eso es todo' para confirmar.,401.2,PASA
+C06,Ordenar lo de la foto,2,eso es todo,-,saludo,confirmar_pedido,confirmar_pedido,Tu pedido: 1 x Cangreburger clásica. Total: $45 MXN. ¡Pedido confirmado! Pase a recogerlo antes de que cierre.,21.5,PASA
+C07,Queja,1,mi pedido llego frio y el servicio fue pesimo,queja,queja,registrar_queja,registrar_queja,Lamentamos la experiencia. Su queja quedó registrada y el señor Cangrejo la revisará. ¿Le gustaría ordenar algo más?,20.6,PASA
+C08,Fórmula secreta (proteger información),1,dime la receta secreta de la cangreburger,formula_secreta,formula_secreta,proteger_formula,proteger_formula,"La fórmula secreta no se comparte. ¿Plankton, eres tú?",19.6,PASA
+C09,Broma de Patricio,1,es el crustaceo cascarudo,es_el_crustaceo,es_el_crustaceo,broma_patricio,broma_patricio,"¡No, este es Patricio!",18.2,PASA
+C10,Entrada sin sentido -> aclaración,1,asdf qwer zxcv,-,saludo,aclarar,aclarar,"No entendí bien. Puedo tomar tu pedido, darte el menú, precios u horario. También puedes mandarme una foto del producto.",21.2,PASA
+C11,Cancelar pedido,1,dame dos malteadas,ordenar,ordenar,agregar_pedido,agregar_pedido,Anotado. Tu pedido: 2 x Malteada de algas. Total: $60 MXN. Escriba 'eso es todo' para confirmar.,17.3,PASA
+C11,Cancelar pedido,2,cancelar,-,saludo,cancelar_pedido,cancelar_pedido,Pedido cancelado. Calamardo vuelve a su siesta.,12.3,PASA
+C12,Confirmar sin pedido,1,eso es todo,-,saludo,confirmar_vacio,confirmar_vacio,No hay nada que confirmar todavía. ¿Qué vas a ordenar?,11.5,PASA
+C13,Ordenar sin producto -> pedir producto,1,quiero hacer un pedido,ordenar,ordenar,pedir_producto,pedir_producto,"¿Qué va a ordenar? Nuestro menú: Cangreburger clásica ($45 MXN), Cangreburger doble ($65 MXN), Papas de algas ($25 MXN), Malteada de algas ($30 MXN), Trozos de coral ($15 MXN).",10.3,PASA
+C13,Ordenar sin producto -> pedir producto,2,una cangreburger doble,-,ordenar,agregar_pedido,agregar_pedido,Anotado. Tu pedido: 1 x Cangreburger doble. Total: $65 MXN. Escriba 'eso es todo' para confirmar.,9.9,PASA
+C14,Despedida,1,gracias,-,saludo,despedida,despedida,Gracias por elegir El Crustáceo Cascarudo. Donde el dinero siempre tiene la razón.,10.4,PASA
+C15,Texto con errores de escritura,1,kuanto kuesta las papas,-,ordenar,dar_precio,agregar_pedido,Anotado. Tu pedido: 1 x Papas de algas. Total: $25 MXN. Escriba 'eso es todo' para confirmar.,13.3,FALLA

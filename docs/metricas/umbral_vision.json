@@ -1,0 +1,45 @@
+{
+  "n_prueba_menu": 34,
+  "n_ajenas": 30,
+  "umbral_en_produccion": 0.9,
+  "confianza_media_menu": 0.8983,
+  "confianza_media_ajenas": 0.6764,
+  "tabla": [
+    {
+      "umbral": 0.5,
+      "cobertura_menu": 1.0,
+      "exactitud_aceptadas": 0.8529,
+      "falsa_aceptacion_ajenas": 0.8
+    },
+    {
+      "umbral": 0.6,
+      "cobertura_menu": 0.9118,
+      "exactitud_aceptadas": 0.871,
+      "falsa_aceptacion_ajenas": 0.5667
+    },
+    {
+      "umbral": 0.7,
+      "cobertura_menu": 0.8235,
+      "exactitud_aceptadas": 0.8929,
+      "falsa_aceptacion_ajenas": 0.4333
+    },
+    {
+      "umbral": 0.8,
+      "cobertura_menu": 0.7941,
+      "exactitud_aceptadas": 0.8889,
+      "falsa_aceptacion_ajenas": 0.2667
+    },
+    {
+      "umbral": 0.9,
+      "cobertura_menu": 0.7353,
+      "exactitud_aceptadas": 0.96,
+      "falsa_aceptacion_ajenas": 0.1333
+    },
+    {
+      "umbral": 0.95,
+      "cobertura_menu": 0.6765,
+      "exactitud_aceptadas": 1.0,
+      "falsa_aceptacion_ajenas": 0.1333
+    }
+  ]
+}

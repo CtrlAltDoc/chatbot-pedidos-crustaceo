@@ -5,8 +5,8 @@
   "exactitud_intencion": 1.0,
   "exactitud_accion_agente": 0.9565,
   "tasa_aclaracion_fallback": 0.0435,
-  "latencia_p50_ms": 6.0,
-  "latencia_p95_ms": 4280.4,
+  "latencia_p50_ms": 13.3,
+  "latencia_p95_ms": 2156.2,
   "fallas": [
     {
       "conversacion": "C15",
@@ -18,7 +18,7 @@
       "accion_esperada": "dar_precio",
       "accion_obtenida": "agregar_pedido",
       "respuesta": "Anotado. Tu pedido: 1 x Papas de algas. Total: $25 MXN. Escriba 'eso es todo' para confirmar.",
-      "latencia_ms": 5.5,
+      "latencia_ms": 13.3,
       "resultado": "FALLA"
     }
   ]
