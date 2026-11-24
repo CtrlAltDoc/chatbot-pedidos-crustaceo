@@ -13,7 +13,7 @@ VISION_HEAD_PATH = MODELS_DIR / "vision_head.npz"
 
 # Umbrales del agente (por debajo se pide aclaración en lugar de adivinar)
 INTENT_THRESHOLD = float(os.getenv("INTENT_THRESHOLD", 0.40))
-VISION_THRESHOLD = float(os.getenv("VISION_THRESHOLD", 0.60))
+VISION_THRESHOLD = float(os.getenv("VISION_THRESHOLD", 0.90))  # 0.60 dejaba pasar un perro como cangreburger (79 %)
 
 # Límites de entrada (manejo de errores)
 MAX_TEXT_CHARS = 500
