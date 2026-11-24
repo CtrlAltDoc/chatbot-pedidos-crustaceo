@@ -8,7 +8,7 @@ Aplicación web que toma pedidos de un restaurante combinando:
 - **Agente inteligente híbrido** que coordina ambos componentes y mantiene la memoria del pedido.
 - **API REST en Flask** con los servicios de inferencia + **interfaz web en Streamlit**.
 
-**App en línea:** `https://<pendiente>.streamlit.app` · **Video de demostración:** `<pendiente>`
+**App en línea:** https://chatbot-pedidos-crustaceo-2xpimpzi8wttstcikty5fn.streamlit.app/ · **Video de demostración:** `<pendiente>`
 **Autor:** Mauro Cesar Faz Turrubiate · Matrícula al07319285
 
 ## Resultados
