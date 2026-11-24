@@ -89,6 +89,10 @@ streamlit run app.py          # levanta también la API Flask en http://127.0.0.
 python -m pytest -q           # pruebas automáticas (requieren spaCy y es_core_news_sm)
 ```
 
+## Actualizar la app desplegada
+
+Streamlit Cloud baja el código nuevo en cada push, pero la API Flask sigue corriendo en su hilo. Si cambian la API, los modelos o los umbrales (`core/config.py`), hay que hacer **Manage app → ⋮ → Reboot app**.
+
 ## Reentrenar
 
 Abrir `training/train_final.ipynb` en Google Colab con GPU y ejecutar todo. Guarda modelos y métricas en `Mi unidad/crustaceo_entrega/`.
